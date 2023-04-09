@@ -64,6 +64,52 @@
     margin-right: 25px;
 }
 
+/* Welcome Section */
+
+#welcome-section {
+    background-color: rgb(229, 254, 246);
+}
+
+.welcome-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    padding-right: 80px;
+}
+
+.welcome-section__left {
+    width: 55%;
+}
+
+.welcome-section__left img {
+    width: 100%;
+    height: auto;
+}
+
+.welcome-section__right {
+    width: 45%;
+}
+
+.welcome-section__right h2 {
+    font-size: 70px;
+    line-height: 66px;
+    color: #311f09;
+    margin-bottom: 60px;
+}
+
+.welcome-section__right p {
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 45px;
+}
+
+.welcome-section__right h2 span {
+    color: #ff8a00;
+}
+
 /* Hero Section */
 
 .hero-section__container {
@@ -116,4 +162,82 @@
 
 .hero-section__cta button:first-child {
     margin-right: 12px;
+}
+
+/*Mune-Section*/
+
+.menu-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.menu-section__container h2 {
+    text-align: center;
+    font-size: 70px;
+    line-height: 66px;
+    color: #311f09;
+    margin-bottom: 60px;
+}
+
+.menu-section__filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.menu-section__meals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.menu-section__stars {
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: max-content;
+}
+
+.menu-section__price {
+    font-size: 25px;
+    line-height: 38px;
+    color: #311f09;
+    font-weight: 600;
+}
+
+.card {
+    width: calc((100% - 80px) / 3);
+    padding: 35px 37px;
+    background-color: #d0ccc733;
+    border-radius: 70px;
+}
+
+.card__img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.card__title {
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 600;
+    text-align: center;
+
+    margin-bottom: 5px;
+}
+
+.card__text {
+    font-size: 14px;
+    line-height: 28px;
+    color: #59442b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
