@@ -27,12 +27,12 @@
 }
 
 .navigation__links li a {
-    color: #311f09;
+    color: rgb(49, 31, 9);
     font-size: 14px;
 }
 
 #navigation__link {
-    color: #ff8a00;
+    color: rgb(255, 138, 0);
 }
 /* .navigation__links li:first-child a {
     color: #ff8a00;
@@ -56,7 +56,7 @@
 .navigation__actions figure {
     height: 50px;
     width: 50px;
-    background-color: #ecf0f1;
+    background-color: rgb(236, 240, 241);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -96,7 +96,7 @@
 .welcome-section__right h2 {
     font-size: 70px;
     line-height: 66px;
-    color: #311f09;
+    color: rgb(49, 31, 9);
     margin-bottom: 60px;
 }
 
@@ -107,7 +107,7 @@
 }
 
 .welcome-section__right h2 span {
-    color: #ff8a00;
+    color: rgb(255, 138, 0);
 }
 
 /* Hero Section */
@@ -138,9 +138,9 @@
 .hero-section__left span {
     display: block;
     margin-bottom: 24px;
-    background-color: #f8ddbe;
+    background-color: rgb(248, 221, 190);
     width: max-content;
-    color: #ff8a00;
+    color: rgb(255, 138, 0);
     font-size: 14px;
     border-radius: 123px;
     padding: 5px 20px;
@@ -148,7 +148,7 @@
 
 .hero-section__heading {
     margin-bottom: 24px;
-    color: #311f09;
+    color: rgb(49, 31, 9);
     font-size: 80px;
     font-weight: 600;
     line-height: 88px;
@@ -156,7 +156,7 @@
 
 .hero-section__description {
     margin-bottom: 50px;
-    color: #5c4529;
+    color: rgb(92, 69, 41);
     font-size: 20px;
 }
 
@@ -176,7 +176,7 @@
     text-align: center;
     font-size: 70px;
     line-height: 66px;
-    color: #311f09;
+    color: rgb(49, 31, 9);
     margin-bottom: 60px;
 }
 
@@ -277,12 +277,12 @@
 .reservation-section__right h2 {
     font-size: 60px;
     line-height: 70px;
-    color: #311f09;
+    color: rgb(49, 31, 9);
     margin-bottom: 50px;
 }
 
 .reservation-section__right h2 span {
-    color: #ff8a00;
+    color: rgb(255, 138, 0);
 }
 
 .reservation-section__right p {
@@ -326,7 +326,7 @@
 }
 
 .chefs-section__chef:first-child img {
-    background-color: #c4c4c4;
+    background-color: rgb(196, 196, 196);
 }
 
 .chefs-section__chef:nth-child(2) img {
@@ -339,7 +339,7 @@
 
 .chefs-section__chef h4 {
     margin-bottom: 15px;
-    color: #311f09;
+    color: rgb(49, 31, 9);
     font-weight: 600;
     font-size: 25px;
     line-height: 200%;
@@ -517,7 +517,7 @@
 }
 
 .footer__text {
-    color: #e3e2e0;
+    color: rgb(227, 226, 224);
     font-size: 16px;
     line-height: 32px;
     display: block;
@@ -532,7 +532,7 @@
 }
 
 .footer__heading {
-    color: #ff8a00;
+    color: rgb(255, 138, 0);
     font-size: 25px;
     line-height: 50px;
 }
