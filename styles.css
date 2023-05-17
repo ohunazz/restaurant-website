@@ -209,7 +209,7 @@
 .card {
     width: calc((100% - 80px) / 3);
     padding: 35px 37px;
-    background-color: #d0ccc733;
+    background-color: rgba(208, 204, 199, 0.2);
     border-radius: 70px;
 }
 
@@ -245,7 +245,7 @@
 /* Reservation */
 
 #reservation-section {
-    background-color: #fff4e766;
+    background-color: rgba(255, 244, 231, 0.4);
 }
 
 .reservation-section__container {
@@ -330,11 +330,11 @@
 }
 
 .chefs-section__chef:nth-child(2) img {
-    background-color: #ff8a0033;
+    background-color: rgba(255, 138, 0, 0.2);
 }
 
 .chefs-section__chef:last-child img {
-    background-color: #9d654233;
+    background-color: rgba(157, 101, 66, 0.2);
 }
 
 .chefs-section__chef h4 {
