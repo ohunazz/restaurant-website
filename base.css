@@ -4,8 +4,20 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url(./fonts/poppins-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url(./fonts/poppins-semibold.ttf);
+    font-weight: 600;
+}
+
 body {
-    font-family: "Bodoni Moda", serif;
+    font-family: "Poppins", sans-serif;
 }
 
 ul {
