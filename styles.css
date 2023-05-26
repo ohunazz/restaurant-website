@@ -26,12 +26,12 @@
 }
 
 .navigation__links li a {
-    color: rgb(49, 31, 9);
+    color: #2f1e09;
     font-size: 14px;
 }
 
 #navigation__link {
-    color: rgb(255, 138, 0);
+    color: var(--primary-color);
 }
 /* .navigation__links li:first-child a {
     color: #ff8a00;
@@ -55,7 +55,7 @@
 .navigation__actions figure {
     height: 50px;
     width: 50px;
-    background-color: rgb(236, 240, 241);
+    background-color: #ecf0f1;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -66,7 +66,7 @@
 /* Welcome Section */
 
 #welcome-section {
-    background-color: rgb(229, 254, 246);
+    background-color: #e5fef6;
 }
 
 .welcome-section__container {
@@ -95,7 +95,7 @@
 .welcome-section__right h2 {
     font-size: 70px;
     line-height: 66px;
-    color: rgb(49, 31, 9);
+    color: var(--color-black);
     margin-bottom: 60px;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .welcome-section__right h2 span {
-    color: rgb(255, 138, 0);
+    color: var(--primary-color);
 }
 
 /* Hero Section */
@@ -137,9 +137,9 @@
 .hero-section__left span {
     display: block;
     margin-bottom: 24px;
-    background-color: rgb(248, 221, 190);
+    background-color: #f8ddbe;
     width: max-content;
-    color: rgb(255, 138, 0);
+    color: var(--primary-color);
     font-size: 14px;
     border-radius: 123px;
     padding: 5px 20px;
@@ -147,7 +147,7 @@
 
 .hero-section__heading {
     margin-bottom: 24px;
-    color: rgb(49, 31, 9);
+    color: var(--color-black);
     font-size: 80px;
     font-weight: 600;
     line-height: 88px;
@@ -155,7 +155,7 @@
 
 .hero-section__description {
     margin-bottom: 50px;
-    color: rgb(92, 69, 41);
+    color: var(--color-light-dark);
     font-size: 20px;
 }
 
@@ -175,7 +175,7 @@
     text-align: center;
     font-size: 70px;
     line-height: 66px;
-    color: rgb(49, 31, 9);
+    color: var(--color-black);
     margin-bottom: 60px;
 }
 
@@ -201,14 +201,14 @@
 .menu-section__price {
     font-size: 25px;
     line-height: 38px;
-    color: #311f09;
+    color: var(--color-black);
     font-weight: 600;
 }
 
 .card {
     width: calc((100% - 80px) / 3);
     padding: 35px 37px;
-    background-color: rgba(208, 204, 199, 0.2);
+    background-color: #d0ccc733;
     border-radius: 70px;
 }
 
@@ -276,12 +276,12 @@
 .reservation-section__right h2 {
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--color-black);
     margin-bottom: 50px;
 }
 
 .reservation-section__right h2 span {
-    color: rgb(255, 138, 0);
+    color: var(--primary-color);
 }
 
 .reservation-section__right p {
@@ -329,7 +329,7 @@
 }
 
 .chefs-section__chef:nth-child(2) img {
-    background-color: rgba(255, 138, 0, 0.2);
+    background-color: #ff8a0033;
 }
 
 .chefs-section__chef:last-child img {
@@ -338,7 +338,7 @@
 
 .chefs-section__chef h4 {
     margin-bottom: 15px;
-    color: rgb(49, 31, 9);
+    color: var(--color-black);
     font-weight: 600;
     font-size: 25px;
     line-height: 200%;
@@ -347,12 +347,12 @@
 .chefs-section__container h2 {
     font-size: 70px;
     line-height: 66px;
-    color: #311f09;
+    color: var(--color-black);
     margin-bottom: 60px;
 }
 
 .chefs-section__container h2 span {
-    color: #ff8a00;
+    color: var(--primary-color);
 }
 
 .chefs-section__chef p {
@@ -381,7 +381,7 @@
 .testimonials-section__container h2 {
     font-size: 60px;
     line-height: 70px;
-    color: #311f09;
+    color: var(--color-black);
     margin-bottom: 50px;
     text-align: center;
 }
@@ -404,14 +404,14 @@
 }
 
 .testimonials-section__testimonial h4 {
-    color: #311f09;
+    color: var(--color-black);
     font-weight: 600;
     font-size: 25px;
     line-height: 50px;
 }
 
 .testimonials-section__testimonial h5 {
-    color: #5c4529;
+    color: var(--color-light-dark);
     font-size: 18px;
     line-height: 36px;
     font-weight: 600;
@@ -419,7 +419,7 @@
 }
 
 .testimonials-section__testimonial p {
-    color: #5c4529;
+    color: var(--color-light-dark);
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -448,7 +448,7 @@
 }
 
 .hours-section__hours h2 {
-    color: #ffffff;
+    color: var(--color-white);
 
     font-size: 60px;
     line-height: 70px;
@@ -456,7 +456,7 @@
 }
 
 .hours-section__hours h3 {
-    color: #ffffff;
+    color: var(--color-white);
     font-size: 30px;
     line-height: 60px;
     font-weight: 600;
@@ -470,7 +470,7 @@
 }
 
 .hours-section__lunch-dinner p {
-    color: #ffffff;
+    color: var(--color-white);
     text-align: center;
     font-size: 20px;
     line-height: 200%;
@@ -482,10 +482,10 @@
 
 .btn-large-white {
     height: 74px;
-    color: #311f09;
+    color: var(--color-black);
     font-size: 20px;
     font-weight: 600;
-    background-color: #ffffff;
+    background-color: var(--color-white);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -500,7 +500,7 @@
 /* Footer */
 
 #footer {
-    background-color: #311f09;
+    background-color: var(--color-black);
 }
 
 .footer__container {
@@ -516,7 +516,7 @@
 }
 
 .footer__text {
-    color: rgb(227, 226, 224);
+    color: #e3e2e0;
     font-size: 16px;
     line-height: 32px;
     display: block;
@@ -531,7 +531,7 @@
 }
 
 .footer__heading {
-    color: rgb(255, 138, 0);
+    color: var(--primary-color);
     font-size: 25px;
     line-height: 50px;
 }

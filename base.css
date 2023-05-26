@@ -16,6 +16,14 @@
     font-weight: 600;
 }
 
+:root {
+    --primary-color: #ff8800;
+    --color-black: #311f09;
+    --color-green: #3fa72f;
+    --color-white: #ffffff;
+    --color-light-dark: #5c4529;
+}
+
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -30,8 +38,8 @@ a {
 
 .btn-small-green {
     height: 50px;
-    color: #ffffff;
-    background-color: #3fa72f;
+    color: var(--color-white);
+    background-color: var(--color-green);
     border-radius: 133px;
     border: none;
     padding-left: 36px;
@@ -41,10 +49,10 @@ a {
 
 .btn-large-green {
     height: 74px;
-    color: black;
+    color: var(--color-black);
     font-size: 20px;
     font-weight: 600;
-    background-color: #2acc11;
+    background-color: var(--color-green);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -53,10 +61,10 @@ a {
 }
 .btn-large-orange {
     height: 74px;
-    color: black;
+    color: var(--color-black);
     font-size: 20px;
     font-weight: 600;
-    background-color: orange;
+    background-color: var(--primary-color);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -66,10 +74,10 @@ a {
 
 .btn-large-black {
     height: 74px;
-    color: white;
+    color: var(--color-white);
     font-size: 20px;
     font-weight: 600;
-    background-color: black;
+    background-color: var(--color-black);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -79,10 +87,10 @@ a {
 
 .btn-md-orange {
     height: 55px;
-    color: #ffffff;
+    color: var(--color-white);
     font-size: 16px;
     font-weight: 400;
-    background-color: #ff8a00;
+    background-color: var(--primary-color);
     border: none;
     border-radius: 162px;
     padding-right: 36px;
@@ -92,7 +100,7 @@ a {
 
 .btn-large-grey {
     height: 74px;
-    color: black;
+    color: var(--color-black);
     font-size: 20px;
     font-weight: 600;
     background-color: #ecf0f1;
