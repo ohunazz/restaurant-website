@@ -11,18 +11,18 @@
 .navigation {
     max-width: 1440px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
     height: 100%;
     padding-left: 80px;
     padding-right: 80px;
 }
 
 .navigation__links {
-    display: flex;
+    /* display: flex; */
     gap: 45px;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .navigation__links li a {
@@ -42,8 +42,8 @@
 } */
 
 .navigation__actions {
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     /* gap: 25px; */
 }
 
@@ -73,8 +73,8 @@
     max-width: 1440px;
     margin: 0 auto;
 
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     padding-top: 80px;
     padding-right: 80px;
 }
@@ -93,14 +93,14 @@
 }
 
 .welcome-section__right h2 {
-    font-size: 70px;
+    /* font-size: 70px; */
     line-height: 66px;
     color: var(--color-black);
     margin-bottom: 60px;
 }
 
 .welcome-section__right p {
-    font-size: 20px;
+    /* font-size: 20px; */
     line-height: 40px;
     margin-bottom: 45px;
 }
@@ -116,9 +116,9 @@
     padding: 80px;
     margin: 0 auto;
 
-    display: flex;
-    align-items: center;
-    gap: 40px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* gap: 40px; */
 }
 
 .hero-section__left {
@@ -173,22 +173,22 @@
 
 .menu-section__container h2 {
     text-align: center;
-    font-size: 70px;
+
     line-height: 66px;
     color: var(--color-black);
     margin-bottom: 60px;
 }
 
 .menu-section__filters {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     margin-bottom: 60px;
 }
 
 .menu-section__meals {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
-    gap: 40px;
+    /* gap: 40px; */
 }
 
 .menu-section__stars {
@@ -222,7 +222,7 @@
     font-size: 30px;
     line-height: 60px;
     font-weight: 600;
-    text-align: center;
+    /* text-align: center; */
 
     margin-bottom: 5px;
 }
@@ -231,14 +231,14 @@
     font-size: 14px;
     line-height: 28px;
     color: #59442b;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 30px;
 }
 
 .card__footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
 }
 
 /* Reservation */
@@ -255,9 +255,9 @@
     max-width: 1440px;
     margin: 0 auto;
 
-    display: flex;
-    align-items: center;
-    gap: 40px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* gap: 40px; */
 }
 
 .reservation-section__left {
@@ -285,7 +285,7 @@
 }
 
 .reservation-section__right p {
-    font-size: 20px;
+    /* font-size: 20px; */
     line-height: 40px;
     margin-bottom: 45px;
 }
@@ -293,7 +293,7 @@
 /* Chefs Section*/
 
 #chefs-section {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .chefs-section__container {
@@ -303,8 +303,8 @@
 }
 
 .chefs-section__chefs {
-    display: flex;
-    gap: 40px;
+    /* display: flex; */
+    /* gap: 40px; */
     margin: 80px;
 }
 
@@ -345,7 +345,7 @@
 }
 
 .chefs-section__container h2 {
-    font-size: 70px;
+    /* font-size: 70px; */
     line-height: 66px;
     color: var(--color-black);
     margin-bottom: 60px;
@@ -387,14 +387,14 @@
 }
 
 .testimonials-section__testimonials {
-    display: flex;
-    gap: 40px;
-    justify-content: space-between;
+    /* display: flex; */
+    /* gap: 40px; */
+    /* justify-content: space-between; */
 }
 
 .testimonials-section__testimonial {
     width: 30%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .testimonials-section__testimonial img {
@@ -441,10 +441,10 @@
 
     background-image: url("./assets/business-hours.png");
 
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .hours-section__hours h2 {
@@ -472,7 +472,7 @@
 .hours-section__lunch-dinner p {
     color: var(--color-white);
     text-align: center;
-    font-size: 20px;
+    /* font-size: 20px; */
     line-height: 200%;
 }
 
@@ -510,8 +510,8 @@
 }
 
 .footer__content {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     margin-bottom: 60px;
 }
 
@@ -527,7 +527,7 @@
 }
 
 .text-center {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .footer__heading {
@@ -558,4 +558,70 @@
 
 .footer__contact p {
     line-height: 24px;
+}
+
+/*refactoring-Section*/
+
+.menu-section__container,
+.welcome-section__right,
+.chefs-section__container h2 {
+    font-size: 70px;
+}
+
+.welcome-section__right,
+.reservation-section__right,
+.hours-section__lunch-dinner p {
+    font-size: 20px;
+}
+
+.hero-section__container,
+.menu-section__meals,
+.reservation-section__container,
+.chefs-section__chefs,
+.testimonials-section__testimonials {
+    gap: 40px;
+}
+
+.navigation,
+.navigation__links,
+.navigation__actions,
+.welcome-section__container,
+.hero-section__container,
+.card__footer,
+.reservation-section__container,
+.hours-section__background {
+    align-items: center;
+}
+
+.navigation,
+.navigation__links,
+.navigation__actions,
+.welcome-section__container,
+.hero-section__container,
+.menu-section__filters,
+.menu-section__meals,
+.card__footer,
+.reservation-section__container,
+.chefs-section__chefs,
+.testimonials-section__testimonials,
+.hours-section__background,
+.footer__content {
+    display: flex;
+}
+
+.text-center,
+.card__title,
+.card__text,
+#chefs-section,
+.testimonials-section__testimonial,
+.hours-section__background {
+    text-align: center;
+}
+
+.footer__content,
+.navigation,
+.menu-section__filters,
+.card__footer,
+.testimonials-section__testimonials {
+    justify-content: space-between;
 }
